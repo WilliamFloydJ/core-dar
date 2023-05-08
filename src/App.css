@@ -1,38 +1,283 @@
-.App {
-  text-align: center;
-}
+@media all and (min-width: 960px) {
+  #darForm > * {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    width: 40vw;
+    background-color: #415364;
+    padding: 1vw;
+  }
+  #darForm > * > * {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5vw;
+  }
+  #darForm {
+    font-family: sans-serif;
+    font-size: 1vw;
+    background-color: #243746;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20vw;
+  }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+  .formInput {
+    font-size: 1.5vw;
+    width: 25vw;
+    height: fit-content;
+  }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  #watch {
+    background-color: #243746;
+    margin: 0 20vw;
+
+    border-radius: 0 0 1vw 1vw;
+  }
+
+  #timer {
+    border-radius: 1vw;
+    width: 50%;
+    padding: 1vw;
+    background-color: #243746;
+  }
+
+  .buttonDiv {
+    background-color: #243746;
+    width: 50%;
+    padding: 0.5vw;
+    border-radius: 1vw;
+  }
+  .buttonDiv > * {
+    margin: 0 1vw;
+    padding: 0.25vw;
+  }
+
+  .insideBackground {
+    background-color: #415364;
+    width: 40vw;
+    padding: 1vw;
+    border-radius: 0 0 1vw 1vw;
+  }
+
+  #root {
+    min-height: 99.9vh;
+    margin: 0;
+    background-image: linear-gradient(#243746, white);
+  }
+
+  #Login {
+    color: white;
+    background-color: #9e703c;
+    text-align: center;
+    width: 5vw;
+    padding: 0.5vw;
+    border-radius: 5vw;
+  }
+
+  .flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo {
+    width: 5vw;
+  }
+
+  .amway {
+    filter: invert(100%) brightness(200%);
+  }
+
+  .linkUl {
+    padding: 5vw 0 5vw 0;
+    width: 23.33vw;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+  }
+
+  input {
+    text-align: center;
+    padding-left: 1vw;
+  }
+
+  header {
+    font-size: 0.85vw;
+    background-color: #243746;
+    height: 5.5vw;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  body {
+    margin: 0;
+    color: #adb7c0;
+  }
+
+  a,
+  span {
+    text-decoration: none;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media all and (max-width: 959px) {
+  #darForm > * {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 80vw;
+    background-color: #415364;
+    padding: 1vw;
   }
-  to {
-    transform: rotate(360deg);
+  #darForm > * > * {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5vw;
+  }
+  #darForm {
+    font-family: sans-serif;
+    font-size: 3vw;
+    background-color: #243746;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 99.9vw;
+  }
+
+  .formInput {
+    font-size: 3.5vw;
+    width: 75vw;
+    height: 10vw;
+    border-radius: 2.5vw;
+    margin: 2vw;
+    border: none;
+  }
+
+  #watch {
+    background-color: #243746;
+    margin: 0 20vw;
+
+    border-radius: 0 0 1vw 1vw;
+  }
+
+  #timer {
+    border-radius: 1vw;
+    width: 50%;
+    padding: 1vw;
+    background-color: #243746;
+  }
+
+  .buttonDiv {
+    background-color: #243746;
+    width: 50%;
+    padding: 0.5vw;
+    border-radius: 1vw;
+  }
+  .buttonDiv > * {
+    margin: 0 1vw;
+    padding: 0.25vw;
+  }
+
+  .insideBackground {
+    background-color: #415364;
+    width: 40vw;
+    padding: 1vw;
+    border-radius: 0 0 1vw 1vw;
+  }
+
+  #Login {
+    color: white;
+    background-color: #9e703c;
+    text-align: center;
+    width: 10vw;
+    padding: 1vw;
+    border-radius: 2.5vw;
+  }
+
+  .flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo {
+    width: 10vw;
+  }
+
+  .amway {
+    filter: invert(100%) brightness(200%);
+  }
+
+  .linkUl {
+    padding: 2vw 0;
+    width: 23.33vw;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+  }
+
+  input {
+    text-align: center;
+    padding-left: 1vw;
+  }
+
+  header {
+    font-size: 2vw;
+    background-color: #243746;
+    height: fit-content;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .mobileColumn {
+    display: flex;
+    font-size: 2.5vw;
+    flex-direction: column;
+  }
+
+  .mobileColumn > * {
+    margin: 0.25vw;
+  }
+
+  body {
+    margin: 0;
+    color: #adb7c0;
+  }
+
+  a,
+  span {
+    text-decoration: none;
   }
 }
